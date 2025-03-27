@@ -11,12 +11,9 @@ body {
 #container {
     width: 750px;
     margin: 0px;
-    border: 2px solid red;
-
 }
 
 #topo {
-    border: 2px solid green;
     height:  150px;
     background: url(../img/detalhe-topo.png) no-repeat right top;
     padding-top: 25px;
@@ -26,5 +23,71 @@ body {
     width: 152px;
     height: 66px;
     background: url(../img/logo.png) no-repeat center;
-    text-indent: 20px;
+    text-indent: -3000px;
+}
+
+ul {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+}
+/* Configuração do Topo */
+#topo ul {
+    background: #b10333;
+    margin-top: 30px;
+    float: left;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(../img/divisor.png) no-repeat left center;
+}
+
+#topo ul a:hover {
+    background: #69001d;
+}
+
+/* Define o layout em 3 colunas */
+#conteudo {
+    background: #f5f5f5;
+    margin-top: 60px;
+
+}
+
+#primaria {
+    width: 270px;
+    float: left;
+    background: blue;
+}
+
+#secundaria {
+    width: 270px;
+    background: green;
+    float: left;
+}
+
+#lateral {
+    width: 180px;
+    background: yellow;
+    float: left;
+}
+
+#container-rodape {
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape {
+    width: 750px;
+    color: #fff;
+    margin: 0 auto;
 }
